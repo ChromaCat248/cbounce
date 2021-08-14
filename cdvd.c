@@ -50,8 +50,8 @@ int main(int argc, const char* argv[]) {
 
         // get terminal size
         getmaxyx(win, th, tw);
-        tw -= w - 1;
-        th -= h - 1;
+        tw -= w;
+        th -= h;
 
         // bounce
         if (x == 0) {
