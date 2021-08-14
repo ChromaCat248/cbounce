@@ -2,4 +2,4 @@ CC=gcc
 CFLAGS=-lcurses
 
 all:
-	$(CC) $(CFLAGS) ./cdvd.c -o cdvd
+	$(CC) $(CFLAGS) ./cbounce.c -o cbounce
